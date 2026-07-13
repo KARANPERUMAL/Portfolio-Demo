@@ -1,6 +1,6 @@
 # 🚀 Karan P — Full Stack Developer Portfolio
 
-**Live Demo:** [GitHub Pages Link — update after deploy]
+**Live Demo:** (https://karanperumal.github.io/Portfolio-Demo/)
 
 > 📌 This is **Project 01** of the TAP Academy 10-project assignment.
 
