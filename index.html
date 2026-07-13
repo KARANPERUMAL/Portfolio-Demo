@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Karan P — Java Full Stack Developer. B.Tech IT student at NPR College of Engineering. Portfolio showcasing projects built with Spring Boot, React, HTML, CSS and JavaScript." />
+  <meta name="keywords" content="Karan P, Java Full Stack Developer, Spring Boot, React, Portfolio, Web Developer, Tamil Nadu" />
+  <meta property="og:title" content="Karan P — Full Stack Developer Portfolio" />
+  <meta property="og:description" content="Java Full Stack Developer fresher with hands-on experience in Spring Boot, REST APIs, React and more." />
+  <title>Karan P — Full Stack Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-brand" id="nav-brand">
+        <span class="brand-bracket">&lt;</span>KP<span class="brand-bracket">/&gt;</span>
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="#about" id="nl-about">About</a>
+        <a href="#skills" id="nl-skills">Skills</a>
+        <a href="#projects" id="nl-projects">Projects</a>
+        <a href="#experience" id="nl-exp">Experience</a>
+        <a href="#contact" id="nl-contact">Contact</a>
+        <a href="mailto:karanperumaln@gmail.com" class="btn btn-primary" id="nl-hire">Hire Me</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ─── HERO ─── -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-grid"></div>
+      <div class="hero-glow"></div>
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-greeting" id="hero-greeting">👋 Hello, I'm</p>
+          <h1 class="hero-name" id="hero-name">Karan P</h1>
+          <div class="hero-role" id="hero-role">
+            <span class="role-static">I build </span>
+            <span class="role-rotating" id="role-rotating">Full Stack Web Apps</span>
+          </div>
+          <p class="hero-bio" id="hero-bio">
+            Java Full Stack Developer fresher with hands-on experience in <strong>Spring Boot</strong>, <strong>React</strong>, <strong>REST APIs</strong> and secure authentication using <strong>JWT & Spring Security</strong>. Currently pursuing B.Tech IT at NPR College of Engineering.
+          </p>
+          <div class="hero-cta" id="hero-cta">
+            <a href="#projects" class="btn btn-primary btn-lg" id="hero-work-btn">View My Work</a>
+            <a href="#contact" class="btn btn-outline btn-lg" id="hero-contact-btn">Get In Touch</a>
+          </div>
+          <div class="hero-links" id="hero-links">
+            <a href="https://github.com/KARANPERUMAL" target="_blank" rel="noopener" id="hl-github" aria-label="GitHub">
+              <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              GitHub
+            </a>
+            <a href="https://linkedin.com/in/karan-perumal" target="_blank" rel="noopener" id="hl-linkedin" aria-label="LinkedIn">
+              <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+            <a href="https://leetcode.com/u/KARANPERUMAL/" target="_blank" rel="noopener" id="hl-leetcode" aria-label="LeetCode">
+              <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/></svg>
+              LeetCode
+            </a>
+          </div>
+        </div>
+        <div class="hero-avatar-wrap" id="hero-avatar-wrap">
+          <div class="avatar-ring">
+            <div class="avatar-inner">
+              <span class="avatar-initials">KP</span>
+            </div>
+          </div>
+          <div class="floating-badge fb-1" id="fb-spring">⚡ Spring Boot</div>
+          <div class="floating-badge fb-2" id="fb-react">⚛ React</div>
+          <div class="floating-badge fb-3" id="fb-java">☕ Java</div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-down" id="scroll-down" aria-label="Scroll down">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+      </a>
+    </section>
+
+    <!-- ─── ABOUT ─── -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow">Get to know me</span>
+          <h2 class="section-title">About <span class="accent">Me</span></h2>
+        </div>
+        <div class="about-grid" id="about-grid">
+          <div class="about-text" id="about-text">
+            <p>I'm a <strong>Java Full Stack Developer</strong> fresher pursuing B.Tech in Information Technology (CGPA: 8.1) at NPR College of Engineering and Technology, Natham. I also hold an <strong>Honours in CSE</strong>.</p>
+            <p>I have hands-on experience building <strong>offline-first applications</strong> with synchronization between SQLite and MySQL, REST APIs with JWT authentication, and full-stack web applications using React and Spring Boot.</p>
+            <p>I interned as a <strong>UI/UX Design Intern</strong> at Pumo Technovation and worked as a <strong>Java Full Stack Developer</strong> at Gradtwin Edutech, where I built real production applications.</p>
+            <p>When I'm not coding, I enjoy competitive programming on <a href="https://leetcode.com/u/KARANPERUMAL/" target="_blank" class="inline-link" id="about-leetcode">LeetCode</a> and exploring new technologies.</p>
+            <div class="about-cta" id="about-cta">
+              <a href="#contact" class="btn btn-primary" id="about-contact-btn">Contact Me</a>
+              <a href="https://github.com/KARANPERUMAL" target="_blank" rel="noopener" class="btn btn-outline" id="about-github-btn">View GitHub</a>
+            </div>
+          </div>
+          <div class="about-stats" id="about-stats">
+            <div class="stat-card" id="astat-1">
+              <span class="stat-num">8.1</span>
+              <span class="stat-label">CGPA</span>
+            </div>
+            <div class="stat-card" id="astat-2">
+              <span class="stat-num">10+</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+            <div class="stat-card" id="astat-3">
+              <span class="stat-num">2</span>
+              <span class="stat-label">Internships</span>
+            </div>
+            <div class="stat-card" id="astat-4">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── SKILLS ─── -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow">What I work with</span>
+          <h2 class="section-title">Tech <span class="accent">Stack</span></h2>
+        </div>
+        <div class="skills-grid" id="skills-grid">
+          <div class="skill-group" id="sg-backend">
+            <h3 class="skill-group-title">⚙️ Backend</h3>
+            <div class="skill-pills">
+              <span class="skill-pill" id="sp-java">Java</span>
+              <span class="skill-pill" id="sp-spring">Spring Boot</span>
+              <span class="skill-pill" id="sp-rest">REST APIs</span>
+              <span class="skill-pill" id="sp-jwt">JWT Auth</span>
+              <span class="skill-pill" id="sp-security">Spring Security</span>
+            </div>
+          </div>
+          <div class="skill-group" id="sg-frontend">
+            <h3 class="skill-group-title">🎨 Frontend</h3>
+            <div class="skill-pills">
+              <span class="skill-pill" id="sp-react">React</span>
+              <span class="skill-pill" id="sp-js">JavaScript</span>
+              <span class="skill-pill" id="sp-html">HTML5</span>
+              <span class="skill-pill" id="sp-css">CSS3</span>
+            </div>
+          </div>
+          <div class="skill-group" id="sg-database">
+            <h3 class="skill-group-title">🗄️ Database</h3>
+            <div class="skill-pills">
+              <span class="skill-pill" id="sp-mysql">MySQL</span>
+              <span class="skill-pill" id="sp-sqlite">SQLite</span>
+            </div>
+          </div>
+          <div class="skill-group" id="sg-tools">
+            <h3 class="skill-group-title">🛠️ Tools & Others</h3>
+            <div class="skill-pills">
+              <span class="skill-pill" id="sp-git">Git & GitHub</span>
+              <span class="skill-pill" id="sp-postman">Postman</span>
+              <span class="skill-pill" id="sp-figma">Figma</span>
+              <span class="skill-pill" id="sp-vscode">VS Code</span>
+              <span class="skill-pill" id="sp-intellij">IntelliJ IDEA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── PROJECTS ─── -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow">What I've built</span>
+          <h2 class="section-title">My <span class="accent">Projects</span></h2>
+        </div>
+
+        <!-- TAP Academy Projects -->
+        <div class="project-category-label" id="tap-label">TAP Academy Assignment Projects</div>
+        <div class="projects-grid" id="tap-projects-grid">
+
+          <div class="project-card featured" id="pc-ecommerce">
+            <div class="pc-header">
+              <div class="pc-icon">🛍️</div>
+              <span class="pc-badge featured-badge">Featured</span>
+            </div>
+            <h3 class="pc-title">E-Commerce Application</h3>
+            <p class="pc-desc">A fully functional e-commerce app with product listings, cart, user authentication, and payment flow. Built as the first TAP Academy project.</p>
+            <div class="pc-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="pc-links">
+              <a href="https://github.com/KARANPERUMAL" target="_blank" rel="noopener" class="pc-link" id="pcl-ecom-gh">GitHub →</a>
+              <a href="#" class="pc-link pc-link-live" id="pcl-ecom-live">Live Demo ↗</a>
+            </div>
+          </div>
+
+          <div class="project-card" id="pc-food">
+            <div class="pc-header">
+              <div class="pc-icon">🍔</div>
+            </div>
+            <h3 class="pc-title">FoodRush — Food Delivery App</h3>
+            <p class="pc-desc">Swiggy-inspired multi-page food delivery app. Restaurant filters, add-to-cart, localStorage cart persistence, bill calculation, Google login modal, and order confirmation.</p>
+            <div class="pc-tags"><span>HTML</span><span>CSS</span><span>JS</span><span>localStorage</span></div>
+            <div class="pc-links">
+              <a href="https://github.com/KARANPERUMAL" target="_blank" rel="noopener" class="pc-link" id="pcl-food-gh">GitHub →</a>
+              <a href="../03-food-delivery/index.html" class="pc-link pc-link-live" id="pcl-food-live">Live Demo ↗</a>
+            </div>
+          </div>
+
+          <div class="project-card" id="pc-watch">
+            <div class="pc-header">
+              <div class="pc-icon">⌚</div>
+            </div>
+            <h3 class="pc-title">Aurum — Luxury Watch Landing Page</h3>
+            <p class="pc-desc">Premium product landing page with dark luxury theme, Aceternity UI-inspired spotlight glow card effect, gallery, specs table, and smooth CSS animations.</p>
+            <div class="pc-tags"><span>HTML</span><span>CSS</span><span>Animations</span></div>
+            <div class="pc-links">
+              <a href="https://github.com/KARANPERUMAL" target="_blank" rel="noopener" class="pc-link" id="pcl-watch-gh">GitHub →</a>
+              <a href="../04-product-landing/index.html" class="pc-link pc-link-live" id="pcl-watch-live">Live Demo ↗</a>
+            </div>
+          </div>
+
+          <div class="project-card" id="pc-tap">
+            <div class="pc-header">
+              <div class="pc-icon">🎓</div>
+            </div>
+            <h3 class="pc-title">TAP Academy — Homepage Clone</h3>
+            <p class="pc-desc">Pixel-close clone of TAP Academy's website with dark theme, placement stats, course cards, testimonials, and lime green brand accent.</p>
+            <div class="pc-tags"><span>HTML</span><span>CSS</span><span>Responsive</span></div>
+            <div class="pc-links">
+              <a href="https://github.com/KARANPERUMAL" target="_blank" rel="noopener" class="pc-link" id="pcl-tap-gh">GitHub →</a>
+              <a href="../05-tap-academy-clone/index.html" class="pc-link pc-link-live" id="pcl-tap-live">Live Demo ↗</a>
+            </div>
+          </div>
+
+          <div class="project-card" id="pc-fest">
+            <div class="pc-header">
+              <div class="pc-icon">🎉</div>
+            </div>
+            <h3 class="pc-title">NEXUS 2025 — College Fest Page</h3>
+            <p class="pc-desc">College tech fest landing page with live countdown timer, glassmorphism event cards, day-wise schedule tabs, and infinite CSS sponsor logo marquee.</p>
+            <div class="pc-tags"><span>HTML</span><span>CSS</span><span>JS</span><span>Countdown</span></div>
+            <div class="pc-links">
+              <a href="https://github.com/KARANPERUMAL" target="_blank" rel="noopener" class="pc-link" id="pcl-fest-gh">GitHub →</a>
+              <a href="../06-college-fest/index.html" class="pc-link pc-link-live" id="pcl-fest-live">Live Demo ↗</a>
+            </div>
+          </div>
+
+          <div class="project-card" id="pc-insta">
+            <div class="pc-header">
+              <div class="pc-icon">📸</div>
+            </div>
+            <h3 class="pc-title">Instagram — UI Clone</h3>
+            <p class="pc-desc">Instagram UI clone with stories bar (gradient rings), post feed with like toggle, right sidebar, and profile page with 3-column photo grid.</p>
+            <div class="pc-tags"><span>HTML</span><span>CSS</span><span>JS</span><span>Grid</span></div>
+            <div class="pc-links">
+              <a href="https://github.com/KARANPERUMAL" target="_blank" rel="noopener" class="pc-link" id="pcl-insta-gh">GitHub →</a>
+              <a href="../07-instagram-clone/index.html" class="pc-link pc-link-live" id="pcl-insta-live">Live Demo ↗</a>
+            </div>
+          </div>
+
+          <div class="project-card" id="pc-linkedin">
+            <div class="pc-header">
+              <div class="pc-icon">💼</div>
+            </div>
+            <h3 class="pc-title">LinkedIn — UI Clone</h3>
+            <p class="pc-desc">LinkedIn home feed clone with 3-column CSS Grid layout: profile card, post composer, feed with reactions, LinkedIn News, and people suggestions.</p>
+            <div class="pc-tags"><span>HTML</span><span>CSS</span><span>JS</span><span>Grid</span></div>
+            <div class="pc-links">
+              <a href="https://github.com/KARANPERUMAL" target="_blank" rel="noopener" class="pc-link" id="pcl-li-gh">GitHub →</a>
+              <a href="../08-linkedin-clone/index.html" class="pc-link pc-link-live" id="pcl-li-live">Live Demo ↗</a>
+            </div>
+          </div>
+
+          <div class="project-card" id="pc-spotify">
+            <div class="pc-header">
+              <div class="pc-icon">🎵</div>
+            </div>
+            <h3 class="pc-title">Spotify — UI Clone</h3>
+            <p class="pc-desc">Full Spotify web player clone with fixed sidebar, scrollable content area, multi-row card grids, and sticky bottom player with play/pause toggle.</p>
+            <div class="pc-tags"><span>HTML</span><span>CSS</span><span>JS</span><span>App Shell</span></div>
+            <div class="pc-links">
+              <a href="https://github.com/KARANPERUMAL" target="_blank" rel="noopener" class="pc-link" id="pcl-sp-gh">GitHub →</a>
+              <a href="../09-spotify-clone/index.html" class="pc-link pc-link-live" id="pcl-sp-live">Live Demo ↗</a>
+            </div>
+          </div>
+
+          <div class="project-card" id="pc-netflix">
+            <div class="pc-header">
+              <div class="pc-icon">🎬</div>
+            </div>
+            <h3 class="pc-title">Netflix — UI Clone</h3>
+            <p class="pc-desc">Netflix browse page with full-bleed hero banner, transparent navbar that turns solid on scroll, 4 horizontally-scrolling poster rows with card hover-scale effect.</p>
+            <div class="pc-tags"><span>HTML</span><span>CSS</span><span>JS</span><span>Animations</span></div>
+            <div class="pc-links">
+              <a href="https://github.com/KARANPERUMAL" target="_blank" rel="noopener" class="pc-link" id="pcl-nf-gh">GitHub →</a>
+              <a href="../10-netflix-clone/index.html" class="pc-link pc-link-live" id="pcl-nf-live">Live Demo ↗</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Personal Projects -->
+        <div class="project-category-label" id="personal-label" style="margin-top:48px;">Personal Projects</div>
+        <div class="projects-grid projects-grid-personal" id="personal-projects-grid">
+          <div class="project-card featured" id="pp-attendx">
+            <div class="pc-header">
+              <div class="pc-icon">📋</div>
+              <span class="pc-badge featured-badge">Production</span>
+            </div>
+            <h3 class="pc-title">AttendX — Offline-First Attendance App</h3>
+            <p class="pc-desc">An offline-first attendance management application with synchronization between SQLite (local) and MySQL (server). Built with Spring Boot backend, JWT authentication, and Spring Security.</p>
+            <div class="pc-tags"><span>Java</span><span>Spring Boot</span><span>SQLite</span><span>MySQL</span><span>JWT</span></div>
+            <div class="pc-links">
+              <a href="https://github.com/KARANPERUMAL" target="_blank" rel="noopener" class="pc-link" id="pcl-attendx">GitHub →</a>
+            </div>
+          </div>
+          <div class="project-card" id="pp-gradtwin">
+            <div class="pc-header">
+              <div class="pc-icon">🎓</div>
+              <span class="pc-badge">Internship</span>
+            </div>
+            <h3 class="pc-title">Gradtwin Edutech Platform</h3>
+            <p class="pc-desc">Full stack educational platform built during internship at Gradtwin Edutech. Developed REST APIs with Spring Boot, integrated React frontend, and implemented secure authentication flows.</p>
+            <div class="pc-tags"><span>React</span><span>Spring Boot</span><span>REST API</span><span>MySQL</span></div>
+            <div class="pc-links">
+              <a href="https://github.com/KARANPERUMAL" target="_blank" rel="noopener" class="pc-link" id="pcl-gradtwin">GitHub →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── EXPERIENCE ─── -->
+    <section class="experience-section" id="experience">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow">My journey</span>
+          <h2 class="section-title">Experience &amp; <span class="accent">Education</span></h2>
+        </div>
+        <div class="timeline" id="timeline">
+
+          <div class="timeline-item" id="ti-gradtwin">
+            <div class="ti-dot"></div>
+            <div class="ti-card">
+              <div class="ti-header">
+                <h3 class="ti-role">Java Full Stack Developer</h3>
+                <span class="ti-badge work-badge">Work</span>
+              </div>
+              <div class="ti-company">Gradtwin Edutech</div>
+              <div class="ti-date">2024 — Present</div>
+              <p class="ti-desc">Built full-stack features using Spring Boot and React. Designed REST APIs, implemented JWT-based auth, and integrated SQLite ↔ MySQL synchronization for offline-first applications.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item" id="ti-pumo">
+            <div class="ti-dot"></div>
+            <div class="ti-card">
+              <div class="ti-header">
+                <h3 class="ti-role">UI/UX Design Intern</h3>
+                <span class="ti-badge work-badge">Internship</span>
+              </div>
+              <div class="ti-company">Pumo Technovation</div>
+              <div class="ti-date">2023</div>
+              <p class="ti-desc">Designed user interfaces and prototypes using Figma. Conducted user research, built wireframes and high-fidelity mockups for mobile and web applications.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item" id="ti-btech">
+            <div class="ti-dot"></div>
+            <div class="ti-card">
+              <div class="ti-header">
+                <h3 class="ti-role">B.Tech — Information Technology</h3>
+                <span class="ti-badge edu-badge">Education</span>
+              </div>
+              <div class="ti-company">NPR College of Engineering and Technology, Natham</div>
+              <div class="ti-date">2022 — Present</div>
+              <p class="ti-desc">CGPA: 8.1 · Also pursuing Honours in CSE. Active in college tech fests and coding competitions.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item" id="ti-hsc">
+            <div class="ti-dot"></div>
+            <div class="ti-card">
+              <div class="ti-header">
+                <h3 class="ti-role">Higher Secondary Certificate (HSC)</h3>
+                <span class="ti-badge edu-badge">Education</span>
+              </div>
+              <div class="ti-company">NSVV Boys Higher Secondary School</div>
+              <div class="ti-date">2022</div>
+              <p class="ti-desc">HSC: 88% · SSLC: 70%</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── CONTACT ─── -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow">Let's connect</span>
+          <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+        </div>
+        <div class="contact-inner" id="contact-inner">
+          <div class="contact-text" id="contact-text">
+            <h3>I'm open to opportunities!</h3>
+            <p>Looking for entry-level positions or internships in Java Full Stack or Frontend Development. Feel free to reach out — I respond within 24 hours.</p>
+            <div class="contact-details" id="contact-details">
+              <a href="mailto:karanperumaln@gmail.com" class="contact-item" id="ci-email">
+                <span class="ci-icon">📧</span>
+                <span>karanperumaln@gmail.com</span>
+              </a>
+              <a href="tel:+919342774502" class="contact-item" id="ci-phone">
+                <span class="ci-icon">📞</span>
+                <span>+91 93427 74502</span>
+              </a>
+              <div class="contact-item" id="ci-location">
+                <span class="ci-icon">📍</span>
+                <span>Batlagundu, Dindigul, Tamil Nadu</span>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form" onsubmit="handleSubmit(event)">
+            <div class="form-group">
+              <label for="cf-name" class="form-label">Your Name</label>
+              <input type="text" id="cf-name" class="form-input" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="cf-email" class="form-label">Email Address</label>
+              <input type="email" id="cf-email" class="form-input" placeholder="john@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="cf-subject" class="form-label">Subject</label>
+              <input type="text" id="cf-subject" class="form-input" placeholder="Job opportunity" />
+            </div>
+            <div class="form-group">
+              <label for="cf-message" class="form-label">Message</label>
+              <textarea id="cf-message" class="form-input form-textarea" placeholder="Tell me about the opportunity..." rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full btn-lg" id="cf-submit">Send Message 📨</button>
+            <div class="form-success" id="form-success" style="display:none;">✅ Message sent! I'll get back to you soon.</div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="nav-brand footer-logo" id="footer-logo"><span class="brand-bracket">&lt;</span>KP<span class="brand-bracket">/&gt;</span></span>
+        <p>Built with ❤️ using HTML, CSS & JavaScript</p>
+      </div>
+      <div class="footer-links-row">
+        <a href="https://github.com/KARANPERUMAL" target="_blank" rel="noopener" id="f-github">GitHub</a>
+        <a href="https://linkedin.com/in/karan-perumal" target="_blank" rel="noopener" id="f-linkedin">LinkedIn</a>
+        <a href="https://leetcode.com/u/KARANPERUMAL/" target="_blank" rel="noopener" id="f-leetcode">LeetCode</a>
+        <a href="mailto:karanperumaln@gmail.com" id="f-email">Email</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Karan P. All rights reserved. TAP Academy Portfolio Assignment.</p>
+    </div>
+  </footer>
+
+  <script>
+    // ── Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // ── Mobile hamburger
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      hamburger.classList.toggle('active');
+    });
+
+    // Close mobile nav on link click
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        hamburger.classList.remove('active');
+      });
+    });
+
+    // ── Active nav link on scroll
+    const sections = document.querySelectorAll('section[id]');
+    const navItems = document.querySelectorAll('.nav-links a[href^="#"]');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(sec => {
+        if (window.scrollY >= sec.offsetTop - 100) current = sec.id;
+      });
+      navItems.forEach(a => {
+        a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+      });
+    });
+
+    // ── Rotating hero role text
+    const roles = ['Full Stack Web Apps', 'REST APIs', 'Spring Boot Apps', 'React Interfaces', 'Offline-First Apps'];
+    let ri = 0;
+    const rolEl = document.getElementById('role-rotating');
+    function rotateRole() {
+      rolEl.style.opacity = '0';
+      rolEl.style.transform = 'translateY(8px)';
+      setTimeout(() => {
+        ri = (ri + 1) % roles.length;
+        rolEl.textContent = roles[ri];
+        rolEl.style.opacity = '1';
+        rolEl.style.transform = 'translateY(0)';
+      }, 300);
+    }
+    setInterval(rotateRole, 3000);
+
+    // ── Scroll reveal animation
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.project-card, .timeline-item, .skill-group, .stat-card').forEach(el => observer.observe(el));
+
+    // ── Contact form
+    function handleSubmit(e) {
+      e.preventDefault();
+      const btn = document.getElementById('cf-submit');
+      btn.textContent = 'Sending...';
+      btn.disabled = true;
+      setTimeout(() => {
+        document.getElementById('form-success').style.display = 'block';
+        document.getElementById('contact-form').reset();
+        btn.textContent = 'Send Message 📨';
+        btn.disabled = false;
+      }, 1200);
+    }
+  </script>
+</body>
+</html>
