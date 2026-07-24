@@ -6,7 +6,7 @@
 
 ---
 
-## About
+## About   
 
 Personal portfolio website for **Karan P**, Java Full Stack Developer and B.Tech IT student at NPR College of Engineering. Showcases all 10 TAP Academy assignment projects plus personal projects, skills, experience, and a contact form.
 
