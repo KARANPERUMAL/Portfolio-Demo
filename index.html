@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
   <meta name="description" content="Karan P — Java Full Stack Developer. B.Tech IT student at NPR College of Engineering. Portfolio showcasing projects built with Spring Boot, React, HTML, CSS and JavaScript." />
   <meta name="keywords" content="Karan P, Java Full Stack Developer, Spring Boot, React, Portfolio, Web Developer, Tamil Nadu" />
   <meta property="og:title" content="Karan P — Full Stack Developer Portfolio" />
@@ -14,6 +15,9 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="safety-banner" role="note">
+    Personal portfolio demo only. This site has no downloads, payments, login, or data collection forms.
+  </div>
 
   <!-- NAVBAR -->
   <header class="navbar" id="navbar">
@@ -257,11 +261,11 @@
               <div class="pc-icon">📸</div>
             </div>
             <h3 class="pc-title">Instagram — UI Clone</h3>
-            <p class="pc-desc">Instagram UI clone with stories bar (gradient rings), post feed with like toggle, right sidebar, and profile page with 3-column photo grid.</p>
+            <p class="pc-desc">Educational Instagram-style UI study with stories bar, post feed interactions, right sidebar, and profile page layout. Not affiliated with Instagram or Meta.</p>
             <div class="pc-tags"><span>HTML</span><span>CSS</span><span>JS</span><span>Grid</span></div>
             <div class="pc-links">
               <a href="https://github.com/KARANPERUMAL/instagram-clone" target="_blank" rel="noopener" class="pc-link" id="pcl-insta-gh">GitHub →</a>
-              <a href="https://karanperumal.github.io/instagram-clone/" class="pc-link pc-link-live" id="pcl-insta-live">Live Demo ↗</a>
+              <a href="https://karanperumal.github.io/instagram-clone/" class="pc-link pc-link-live" id="pcl-insta-live">Educational Demo ↗</a>
             </div>
           </div>
 
@@ -270,11 +274,11 @@
               <div class="pc-icon">💼</div>
             </div>
             <h3 class="pc-title">LinkedIn — UI Clone</h3>
-            <p class="pc-desc">LinkedIn home feed clone with 3-column CSS Grid layout: profile card, post composer, feed with reactions, LinkedIn News, and people suggestions.</p>
+            <p class="pc-desc">Educational LinkedIn-style UI study with 3-column CSS Grid layout, profile card, post composer, feed interactions, news, and people suggestions.</p>
             <div class="pc-tags"><span>HTML</span><span>CSS</span><span>JS</span><span>Grid</span></div>
             <div class="pc-links">
               <a href="https://github.com/KARANPERUMAL/LinkedIn-Clone" target="_blank" rel="noopener" class="pc-link" id="pcl-li-gh">GitHub →</a>
-              <a href="https://karanperumal.github.io/LinkedIn-Clone/" class="pc-link pc-link-live" id="pcl-li-live">Live Demo ↗</a>
+              <a href="https://karanperumal.github.io/LinkedIn-Clone/" class="pc-link pc-link-live" id="pcl-li-live">Educational Demo ↗</a>
             </div>
           </div>
 
@@ -283,11 +287,11 @@
               <div class="pc-icon">🎵</div>
             </div>
             <h3 class="pc-title">Spotify — UI Clone</h3>
-            <p class="pc-desc">Full Spotify web player clone with fixed sidebar, scrollable content area, multi-row card grids, and sticky bottom player with play/pause toggle.</p>
+            <p class="pc-desc">Educational Spotify-style music player UI study with fixed sidebar, scrollable content area, card grids, and a demo bottom player. Not affiliated with Spotify.</p>
             <div class="pc-tags"><span>HTML</span><span>CSS</span><span>JS</span><span>App Shell</span></div>
             <div class="pc-links">
               <a href="https://github.com/KARANPERUMAL/spotify-clone" target="_blank" rel="noopener" class="pc-link" id="pcl-sp-gh">GitHub →</a>
-              <a href="https://karanperumal.github.io/spotify-clone/" class="pc-link pc-link-live" id="pcl-sp-live">Live Demo ↗</a>
+              <a href="https://karanperumal.github.io/spotify-clone/" class="pc-link pc-link-live" id="pcl-sp-live">Educational Demo ↗</a>
             </div>
           </div>
 
@@ -296,11 +300,11 @@
               <div class="pc-icon">🎬</div>
             </div>
             <h3 class="pc-title">Netflix — UI Clone</h3>
-            <p class="pc-desc">Netflix browse page with full-bleed hero banner, transparent navbar that turns solid on scroll, 4 horizontally-scrolling poster rows with card hover-scale effect.</p>
+            <p class="pc-desc">Educational streaming browse UI study with full-bleed hero banner, scroll-aware navbar, poster rows, and hover effects. Not affiliated with Netflix.</p>
             <div class="pc-tags"><span>HTML</span><span>CSS</span><span>JS</span><span>Animations</span></div>
             <div class="pc-links">
               <a href="https://github.com/KARANPERUMAL/netflix-clone" target="_blank" rel="noopener" class="pc-link" id="pcl-nf-gh">GitHub →</a>
-              <a href="https://karanperumal.github.io/netflix-clone/" class="pc-link pc-link-live" id="pcl-nf-live">Live Demo ↗</a>
+              <a href="https://karanperumal.github.io/netflix-clone/" class="pc-link pc-link-live" id="pcl-nf-live">Educational Demo ↗</a>
             </div>
           </div>
         </div>
@@ -427,26 +431,14 @@
               </div>
             </div>
           </div>
-          <form class="contact-form" id="contact-form" onsubmit="handleSubmit(event)">
-            <div class="form-group">
-              <label for="cf-name" class="form-label">Your Name</label>
-              <input type="text" id="cf-name" class="form-input" placeholder="John Doe" required />
+          <div class="contact-panel" id="contact-panel">
+            <h3>Contact directly</h3>
+            <p>This portfolio does not collect or store messages. Use email or phone directly to reach me.</p>
+            <div class="contact-actions">
+              <a href="mailto:karanperumaln@gmail.com?subject=Portfolio%20Contact" class="btn btn-primary btn-lg" id="contact-email-btn">Email Me</a>
+              <a href="tel:+919342774502" class="btn btn-outline btn-lg" id="contact-phone-btn">Call Me</a>
             </div>
-            <div class="form-group">
-              <label for="cf-email" class="form-label">Email Address</label>
-              <input type="email" id="cf-email" class="form-input" placeholder="john@example.com" required />
-            </div>
-            <div class="form-group">
-              <label for="cf-subject" class="form-label">Subject</label>
-              <input type="text" id="cf-subject" class="form-input" placeholder="Job opportunity" />
-            </div>
-            <div class="form-group">
-              <label for="cf-message" class="form-label">Message</label>
-              <textarea id="cf-message" class="form-input form-textarea" placeholder="Tell me about the opportunity..." rows="5" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary btn-full btn-lg" id="cf-submit">Send Message 📨</button>
-            <div class="form-success" id="form-success" style="display:none;">✅ Message sent! I'll get back to you soon.</div>
-          </form>
+          </div>
         </div>
       </div>
     </section>
@@ -531,19 +523,6 @@
     }, { threshold: 0.1 });
     document.querySelectorAll('.project-card, .timeline-item, .skill-group, .stat-card').forEach(el => observer.observe(el));
 
-    // ── Contact form
-    function handleSubmit(e) {
-      e.preventDefault();
-      const btn = document.getElementById('cf-submit');
-      btn.textContent = 'Sending...';
-      btn.disabled = true;
-      setTimeout(() => {
-        document.getElementById('form-success').style.display = 'block';
-        document.getElementById('contact-form').reset();
-        btn.textContent = 'Send Message 📨';
-        btn.disabled = false;
-      }, 1200);
-    }
   </script>
 </body>
 </html>
